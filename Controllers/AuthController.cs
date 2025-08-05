@@ -20,6 +20,7 @@ public class AuthController : ControllerBase
         _context = context;
         _config = config;
     }
+    //change in auth 
 
     [HttpGet("getalllogindetails")]
     //[Authorize]

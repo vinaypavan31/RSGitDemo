@@ -15,7 +15,7 @@ namespace ECart.Controllers
         private readonly DataContext _context;
 
         public ProductController(DataContext context)
-        {
+        {//change in product
             _context = context;
         }
 
