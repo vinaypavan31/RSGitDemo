@@ -17,7 +17,8 @@ namespace ECart.Controllers
         public ProductController(DataContext context)
         {//change in product
             _context = context;
-        }
+        }//change from develop branch in product controller
+        //this is fun
 
         [HttpGet("getallproducts")]
         public IActionResult GetAllProducts()
